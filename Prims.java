@@ -52,7 +52,7 @@ public class Prims {
     
     private void computeSpanningTree(Integer sourceNode) {
         ArrayList <Integer> graphNodes = new ArrayList<>(), treeNodes = new ArrayList<>();
-        ArrayList <Edge> candidateEdges = new ArrayList<>(), treeEdges = new ArrayList<>();
+        ArrayList <Edge> candidateEdges = new ArrayList<>();
 
         //Compute Spanning Tree
         for(Integer i=1; i<=noOfVertices; i++)
