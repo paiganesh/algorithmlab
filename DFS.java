@@ -55,8 +55,9 @@ public class DFS {
     } /* end dfs */
 
     public static void main(String[] args) {
+        DFS graph = new DFS();
         System.out.println("\nEnter start vertex :");
         int startVertex = new Scanner(System.in).nextInt();
-        new DFS().dfs(startVertex);
+        graph.dfs(startVertex);
     }
 }
