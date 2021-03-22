@@ -56,8 +56,9 @@ public class BFS {
     } /* end dfs */
 
     public static void main(String[] args) {
-        System.out.println("\nEnter start vertex :");
+        BFS graph = new BFS();
+        System.out.print("\nEnter start vertex :");
         int startVertex = new Scanner(System.in).nextInt();
-        new BFS().bfs(startVertex);
+        graph.bfs(startVertex);
     }
 }
